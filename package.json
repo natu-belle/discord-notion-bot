@@ -1,0 +1,17 @@
+{
+  "name": "discord-notion-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that saves messages to Notion.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.16",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
